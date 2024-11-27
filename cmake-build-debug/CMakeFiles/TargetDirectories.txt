@@ -1,0 +1,3 @@
+/Users/flaviarivero/github/flavia_examen_CPP_parcial3/cmake-build-debug/CMakeFiles/flavia_examen_CPP_parcial3.dir
+/Users/flaviarivero/github/flavia_examen_CPP_parcial3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/flaviarivero/github/flavia_examen_CPP_parcial3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
