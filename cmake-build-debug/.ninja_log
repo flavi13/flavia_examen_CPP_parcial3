@@ -1,10 +1,8 @@
 # ninja log v6
-565	682	1732728601228796584	flavia_examen_CPP_parcial3	3962a80060d1bbc4
-2	565	1732728600665818388	CMakeFiles/flavia_examen_CPP_parcial3.dir/procedimiento.cpp.o	942d456ab3319f21
+16	82	1732871574555927429	build.ninja	d3efe09823572e32
+4	492	1732729777602441416	CMakeFiles/flavia_examen_CPP_parcial3.dir/main.cpp.o	927fc5667f576dce
 3	146	1732728489281849273	CMakeFiles/flavia_examen_CPP_parcial3.dir/tarea.cpp.o	1e7fc661b9bc9aa5
-2	519	1732728600665603722	CMakeFiles/flavia_examen_CPP_parcial3.dir/main.cpp.o	927fc5667f576dce
-2	61	1732728995830119223	build.ninja	d3efe09823572e32
-5	454	1732729009203544148	CMakeFiles/flavia_examen_CPP_parcial3.dir/main.cpp.o	927fc5667f576dce
-6	490	1732729009204506808	CMakeFiles/flavia_examen_CPP_parcial3.dir/funciones.cpp.o	880b57d33a6b57bb
-5	557	1732729009204346017	CMakeFiles/flavia_examen_CPP_parcial3.dir/procedimiento.cpp.o	942d456ab3319f21
+23	232	1732819400219119804	CMakeFiles/flavia_examen_CPP_parcial3.dir/lanzador.cpp.o	e815d06e2f85769b
 557	672	1732729009756169220	flavia_examen_CPP_parcial3	52d9776e2d67d5b6
+23	232	1732819400219240679	CMakeFiles/flavia_examen_CPP_parcial3.dir/crud/crud.cpp.o	b22f224ad04198bd
+23	565	1732819400218981013	CMakeFiles/flavia_examen_CPP_parcial3.dir/tarea/tarea.cpp.o	35f337c22c181984

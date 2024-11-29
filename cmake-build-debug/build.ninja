@@ -55,17 +55,29 @@ build CMakeFiles/flavia_examen_CPP_parcial3.dir/main.cpp.o: CXX_COMPILER__flavia
   OBJECT_DIR = CMakeFiles/flavia_examen_CPP_parcial3.dir
   OBJECT_FILE_DIR = CMakeFiles/flavia_examen_CPP_parcial3.dir
 
-build CMakeFiles/flavia_examen_CPP_parcial3.dir/procedimiento.cpp.o: CXX_COMPILER__flavia_examen_CPP_parcial3_unscanned_Debug /Users/flaviarivero/github/flavia_examen_CPP_parcial3/procedimiento.cpp || cmake_object_order_depends_target_flavia_examen_CPP_parcial3
-  DEP_FILE = CMakeFiles/flavia_examen_CPP_parcial3.dir/procedimiento.cpp.o.d
+build CMakeFiles/flavia_examen_CPP_parcial3.dir/actor/actor.cpp.o: CXX_COMPILER__flavia_examen_CPP_parcial3_unscanned_Debug /Users/flaviarivero/github/flavia_examen_CPP_parcial3/actor/actor.cpp || cmake_object_order_depends_target_flavia_examen_CPP_parcial3
+  DEP_FILE = CMakeFiles/flavia_examen_CPP_parcial3.dir/actor/actor.cpp.o.d
+  FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/flavia_examen_CPP_parcial3.dir
+  OBJECT_FILE_DIR = CMakeFiles/flavia_examen_CPP_parcial3.dir/actor
+
+build CMakeFiles/flavia_examen_CPP_parcial3.dir/tarea/tarea.cpp.o: CXX_COMPILER__flavia_examen_CPP_parcial3_unscanned_Debug /Users/flaviarivero/github/flavia_examen_CPP_parcial3/tarea/tarea.cpp || cmake_object_order_depends_target_flavia_examen_CPP_parcial3
+  DEP_FILE = CMakeFiles/flavia_examen_CPP_parcial3.dir/tarea/tarea.cpp.o.d
+  FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/flavia_examen_CPP_parcial3.dir
+  OBJECT_FILE_DIR = CMakeFiles/flavia_examen_CPP_parcial3.dir/tarea
+
+build CMakeFiles/flavia_examen_CPP_parcial3.dir/lanzador.cpp.o: CXX_COMPILER__flavia_examen_CPP_parcial3_unscanned_Debug /Users/flaviarivero/github/flavia_examen_CPP_parcial3/lanzador.cpp || cmake_object_order_depends_target_flavia_examen_CPP_parcial3
+  DEP_FILE = CMakeFiles/flavia_examen_CPP_parcial3.dir/lanzador.cpp.o.d
   FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/flavia_examen_CPP_parcial3.dir
   OBJECT_FILE_DIR = CMakeFiles/flavia_examen_CPP_parcial3.dir
 
-build CMakeFiles/flavia_examen_CPP_parcial3.dir/funciones.cpp.o: CXX_COMPILER__flavia_examen_CPP_parcial3_unscanned_Debug /Users/flaviarivero/github/flavia_examen_CPP_parcial3/funciones.cpp || cmake_object_order_depends_target_flavia_examen_CPP_parcial3
-  DEP_FILE = CMakeFiles/flavia_examen_CPP_parcial3.dir/funciones.cpp.o.d
+build CMakeFiles/flavia_examen_CPP_parcial3.dir/crud/crud.cpp.o: CXX_COMPILER__flavia_examen_CPP_parcial3_unscanned_Debug /Users/flaviarivero/github/flavia_examen_CPP_parcial3/crud/crud.cpp || cmake_object_order_depends_target_flavia_examen_CPP_parcial3
+  DEP_FILE = CMakeFiles/flavia_examen_CPP_parcial3.dir/crud/crud.cpp.o.d
   FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/flavia_examen_CPP_parcial3.dir
-  OBJECT_FILE_DIR = CMakeFiles/flavia_examen_CPP_parcial3.dir
+  OBJECT_FILE_DIR = CMakeFiles/flavia_examen_CPP_parcial3.dir/crud
 
 
 # =============================================================================
@@ -75,7 +87,7 @@ build CMakeFiles/flavia_examen_CPP_parcial3.dir/funciones.cpp.o: CXX_COMPILER__f
 #############################################
 # Link the executable flavia_examen_CPP_parcial3
 
-build flavia_examen_CPP_parcial3: CXX_EXECUTABLE_LINKER__flavia_examen_CPP_parcial3_Debug CMakeFiles/flavia_examen_CPP_parcial3.dir/main.cpp.o CMakeFiles/flavia_examen_CPP_parcial3.dir/procedimiento.cpp.o CMakeFiles/flavia_examen_CPP_parcial3.dir/funciones.cpp.o
+build flavia_examen_CPP_parcial3: CXX_EXECUTABLE_LINKER__flavia_examen_CPP_parcial3_Debug CMakeFiles/flavia_examen_CPP_parcial3.dir/main.cpp.o CMakeFiles/flavia_examen_CPP_parcial3.dir/actor/actor.cpp.o CMakeFiles/flavia_examen_CPP_parcial3.dir/tarea/tarea.cpp.o CMakeFiles/flavia_examen_CPP_parcial3.dir/lanzador.cpp.o CMakeFiles/flavia_examen_CPP_parcial3.dir/crud/crud.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/flavia_examen_CPP_parcial3.dir
   POST_BUILD = :

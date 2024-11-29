@@ -2,6 +2,12 @@
 
 [link del repositorio](https://github.com/flavi13/flavia_examen_CPP_parcial3)
 (AUN NO TERMINADO)
+
+## Modificaciones de clase
+
+Partimos de un código que nos proporciono uno de los profesores, al cual se le hicieron distintos cambios en la hora de clase para mejorar y optimizar el código
+La salida tiene que ser a traves del concepto de crud el cual tiene que crear, borrar, editar tanto los trabajadores como las tareas. Primero habría que crear el crud y la salida son una serie de pregunta creando estas tareas y estos trabajadores.
+
 ## Condiciones de Entrega del Examen de Programación en C++
 
 Estimado estudiante,
@@ -95,3 +101,14 @@ Diagrama de flujo que represente el cronograma de ejecución de las tareas.
 ¡Buena suerte y que la optimización esté de su lado!
 
 
+PRINT :
+TAREAS
+A
+B
+C...
+¿Quieres asignar tarea a un actor?
+¿Quieres crear un nuevo actor?
+¿Quieres crear una tarea?
+
+¿Ha finalizado la creacion de las tareas?
+¿Quieres asignar tareas a un actor?
