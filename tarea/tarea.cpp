@@ -1,39 +1,70 @@
 //
-// Created by Flavia Rivero on 28/11/24.
+// Created by Flavia Rivero on 30/11/24.
 //
+
 #include "Tarea.h"
 #include <iostream>
-#include <string>
 
+using namespace std;
 
-class Tarea {       // The class
-private:
-    std::string id;// Access specifier
-    std::string descripcion;
+Tarea* tarea = nullptr; // Definimos una variable global para la tarea actual
+
+bool crearTarea() {
+    string id, descripcion;
     int duracion;
-    // Attribute (int variable)
-    // Attribute (string variable)
-public:           // Access specifier
-    Tarea(std::string id, std::string descripcion, int duracion) {     // Constructor
-        this->id= id;
-        this->descripcion= descripcion;
-        this->duracion= duracion;
-    }
 
-public:
-    std::string getId(){
-        return id;
-    }
-    std::string getDesc(){
-        return descripcion;
-    }
+    cout << "Ingrese el ID de la tarea: ";
+    cin >> id;
+    cout << "Ingrese la descripción de la tarea: ";
+    cin.ignore(); // Ignora el carácter de nueva línea pendiente
+    getline(cin, descripcion);
+    cout << "Ingrese la duración de la tarea (en minutos): ";
+    cin >> duracion;
 
-    int getDuracion(){
-        return duracion;
-    }
+    tarea = new Tarea(id, descripcion, duracion);
+    cout << "Tarea creada correctamente.\n";
+    return true;
+}
 
-    std::string toString(){
-        return ("Tarea: " + descripcion + " Duracion: " + std::to_string(duracion));
+void leerTarea() {
+    if (tarea) {
+        cout << tarea->toString() << endl;
+    } else {
+        cout << "No hay tareas para mostrar.\n";
     }
+}
 
-};
+void actualizarTarea() {
+    if (tarea) {
+        string nuevaId, nuevaDescripcion;
+        int nuevaDuracion;
+
+        cout << "Ingrese el nuevo ID de la tarea: ";
+        cin >> nuevaId;
+        cout << "Ingrese la nueva descripción: ";
+        cin.ignore(); // Ignora el carácter de nueva línea pendiente
+        getline(cin, nuevaDescripcion);
+        cout << "Ingrese la nueva duración (en minutos): ";
+        cin >> nuevaDuracion;
+
+        tarea->setId(nuevaId);
+        tarea->setDescripcion(nuevaDescripcion);
+        tarea->setDuracion(nuevaDuracion);
+
+        cout << "Tarea actualizada correctamente.\n";
+    } else {
+        cout << "No hay tareas para actualizar.\n";
+    }
+}
+
+bool borrarTarea() {
+    if (tarea) {
+        delete tarea;
+        tarea = nullptr;
+        cout << "Tarea borrada correctamente.\n";
+        return true;
+    } else {
+        cout << "No hay tareas para borrar.\n";
+        return false;
+    }
+}

@@ -1,7 +1,7 @@
 # flavia_examen_CPP_parcial3
 
 [link del repositorio](https://github.com/flavi13/flavia_examen_CPP_parcial3)
-(AUN NO TERMINADO)
+
 
 ## Modificaciones de clase
 
@@ -100,15 +100,3 @@ Código fuente en C++ que implemente la solución al problema.
 Diagrama de flujo que represente el cronograma de ejecución de las tareas.
 ¡Buena suerte y que la optimización esté de su lado!
 
-
-PRINT :
-TAREAS
-A
-B
-C...
-¿Quieres asignar tarea a un actor?
-¿Quieres crear un nuevo actor?
-¿Quieres crear una tarea?
-
-¿Ha finalizado la creacion de las tareas?
-¿Quieres asignar tareas a un actor?

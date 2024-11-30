@@ -1,14 +1,13 @@
 //
 // Created by Flavia Rivero on 28/11/24.
 //
+#include "crud.h"
+#include <iostream>
+#include <vector>
+#include <algorithm>
 
+using namespace std;
 
-#ifndef CRUD_H
-#define CRUD_H
+extern Tarea* tarea; // Utilizar extern para evitar duplicación
 
-bool crear ();
-void leer();
-void actualizar();
-bool borrar();
-
-#endif //CRUD_H
+// Las funciones CRUD para Trabajadores ya fueron implementadas en `trabajador/Trabajador.cpp`
