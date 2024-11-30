@@ -3,10 +3,10 @@
 [link del repositorio](https://github.com/flavi13/flavia_examen_CPP_parcial3)
 
 
-## Modificaciones de clase
+## Modificaciones de clase (trabajo real)
 
 Partimos de un código que nos proporciono uno de los profesores, al cual se le hicieron distintos cambios en la hora de clase para mejorar y optimizar el código
-La salida tiene que ser a traves del concepto de crud el cual tiene que crear, borrar, editar tanto los trabajadores como las tareas. Primero habría que crear el crud y la salida son una serie de pregunta creando estas tareas y estos trabajadores.
+La salida tiene que ser a traves del concepto de crud el cual tiene que crear,leer, actualizar y borrar, tanto los trabajadores como las tareas. Primero habría que crear el crud y la salida son una serie de preguntas creando estas tareas y estos trabajadores.
 
 ## Condiciones de Entrega del Examen de Programación en C++
 
@@ -18,33 +18,40 @@ Para garantizar una correcta evaluación de tus habilidades y entendimiento en l
 
 #### Repositorio en GitHub:
 
-Todo tu trabajo debe estar contenido en un repositorio en GitHub.
-Asegúrate de que el repositorio sea privado al inicio, y podrás hacerlo público después de que finalice el período de revisión del examen (si así lo deseas).
+- Todo tu trabajo debe estar contenido en un repositorio en GitHub.
+
+- Asegúrate de que el repositorio sea privado al inicio, y podrás hacerlo público después de que finalice el período de revisión del examen (si así lo deseas).
 
 #### Fichero ZIP:
 
-Una vez hayas terminado de resolver el examen, crea un archivo ZIP de todo el repositorio.
-El nombre del archivo ZIP debe seguir el formato: Apellido_Nombre_ExamenCPP.zip (reemplaza Apellido y Nombre con tu apellido y nombre respectivamente).
+- Una vez hayas terminado de resolver el examen, crea un archivo ZIP de todo el repositorio.
+
+- El nombre del archivo ZIP debe seguir el formato: Apellido_Nombre_ExamenCPP.zip (reemplaza Apellido y Nombre con tu apellido y nombre respectivamente).
 
 #### Fichero README.md:
 
 Dentro de tu repositorio, debes incluir un archivo README.md.
 
 #### Este archivo debe contener:
-El link directo a tu repositorio de GitHub.
-Una descripción breve de cada uno de los ejercicios resueltos, con referencias a los archivos o carpetas específicos donde se puede encontrar cada solución.
-El uso adecuado de Markdown en tu README.md para estructurar y formatear el contenido será valorado positivamente.
+- El link directo a tu repositorio de GitHub.
+
+- Una descripción breve de cada uno de los ejercicios resueltos, con referencias a los archivos o carpetas específicos donde se puede encontrar cada solución.
+
+- El uso adecuado de Markdown en tu README.md para estructurar y formatear el contenido será valorado positivamente.
 
 #### Envío:
 
-Entrega el archivo ZIP a través de la plataforma o método que se te indique (por ejemplo, un sistema de gestión de aprendizaje, correo electrónico, etc.).
-Asegúrate de enviar tu trabajo antes de la fecha y hora límite. Las entregas fuera de plazo pueden no ser evaluadas o incurrir en penalizaciones.
+- Entrega el archivo ZIP a través de la plataforma o método que se te indique (por ejemplo, un sistema de gestión de aprendizaje, correo electrónico, etc.).
+
+- Asegúrate de enviar tu trabajo antes de la fecha y hora límite. Las entregas fuera de plazo pueden no ser evaluadas o incurrir en penalizaciones.
 
 #### Otros aspectos a considerar:
 
-Asegúrate de que tu código esté bien comentado, organizado y que sea fácil de leer y entender.
-Si utilizas alguna referencia externa para resolver algún ejercicio, es esencial que lo cites en tu README.md.
-Siguiendo estas condiciones y presentando tu trabajo de manera organizada, nos ayudarás a llevar a cabo un proceso de revisión más eficiente. Deseamos que demuestres todo tu conocimiento y habilidades en este examen. ¡Buena suerte!
+- Asegúrate de que tu código esté bien comentado, organizado y que sea fácil de leer y entender.
+
+- Si utilizas alguna referencia externa para resolver algún ejercicio, es esencial que lo cites en tu README.md.
+
+- Siguiendo estas condiciones y presentando tu trabajo de manera organizada, nos ayudarás a llevar a cabo un proceso de revisión más eficiente. Deseamos que demuestres todo tu conocimiento y habilidades en este examen. ¡Buena suerte!
 
 
 Bienvenidos a este reto práctico de algoritmos. En este ejercicio, pondrán a prueba sus habilidades para planificar y optimizar recursos bajo un escenario realista de alta presión.
@@ -74,8 +81,8 @@ Debido a la urgencia de la situación, necesitan optimizar las tareas para cumpl
 
 ### Dependencias entre tareas:
 
-Algunas tareas deben ser realizadas antes que otras, por ejemplo, no se puede viajar al aeropuerto antes de haber recogido las maletas.
-Además, la reserva del vuelo debe completarse antes de recoger el billete, y la preparación del billete debe ocurrir antes de llevar el billete a la oficina.
+- Algunas tareas deben ser realizadas antes que otras, por ejemplo, no se puede viajar al aeropuerto antes de haber recogido las maletas.
+- Además, la reserva del vuelo debe completarse antes de recoger el billete, y la preparación del billete debe ocurrir antes de llevar el billete a la oficina.
 
 ### Objetivos del Reto:
 
@@ -84,19 +91,20 @@ Además, la reserva del vuelo debe completarse antes de recoger el billete, y la
 
 ### Desarrollo de Algoritmo en C++:
 
-Crear un programa en C++ que permita calcular el orden de ejecución de las tareas en función de sus dependencias.
-Determinar el tiempo total necesario para completar todas las tareas.
-Evaluar si es posible completar las tareas en 100 minutos o menos.
-Imprimir el orden óptimo de ejecución de las tareas y su tiempo total.
+- Crear un programa en C++ que permita calcular el orden de ejecución de las tareas en función de sus dependencias.
+- Determinar el tiempo total necesario para completar todas las tareas.
+- Evaluar si es posible completar las tareas en 100 minutos o menos.
+- Imprimir el orden óptimo de ejecución de las tareas y su tiempo total.
 
 ### Restricciones:
 
-El tiempo máximo permitido para completar las tareas es de 100 minutos.
-El algoritmo debe gestionar de forma eficiente las dependencias entre las tareas, de tal manera que optimice el tiempo de ejecución.
+- El tiempo máximo permitido para completar las tareas es de 100 minutos.
+- El algoritmo debe gestionar de forma eficiente las dependencias entre las tareas, de tal manera que optimice el tiempo de ejecución.
 
 ### Entrega:
 
-Código fuente en C++ que implemente la solución al problema.
-Diagrama de flujo que represente el cronograma de ejecución de las tareas.
-¡Buena suerte y que la optimización esté de su lado!
+- Código fuente en C++ que implemente la solución al problema.
+- Diagrama de flujo que represente el cronograma de ejecución de las tareas.
+
+- ¡Buena suerte y que la optimización esté de su lado!
 
